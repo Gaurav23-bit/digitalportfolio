@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaurav - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+    
+        body {
+            background-color: rgb(0, 82, 82);
+            color: white;
+            font-family: 'poppins', sans-sarif;
+        }
+    
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 90px;
+            background-color: rgb(12, 110, 111);
+        }
+    
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+    
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+    
+        nav ul li a {
+            text-decoration: none;
+            color: #ffffff;
+        }
+    
+        nav ul li a:hover {
+            color: rgb(123, 123, 218);
+            font-size: 1.01rem;
+        }
+    
+        main hr {
+            height: 1.2px;
+            background-color: rgb(12, 110, 111);
+            margin: 40px 84px;
+            border: 0;
+        }
+    
+        .left {
+            font-size: 1.5rem;
+        }
+    
+        .firstSection {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            margin: 140px 0;
+        }
+    
+        .firstSection>div {
+            width: 35%;
+        }
+    
+        .leftSection {
+            font-size: 3rem;
+        }
+       
+       
+        .rightSection img{
+            width: 65%;
+        }
+    
+        .text-purple {
+            color: rgb(149, 80, 214);
+        }
+    
+        .text-gray {
+            color: gray;
+        }
+    
+        #element {
+            color: rgb(149, 80, 214);
+        }
+    
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+    
+        .secondSection h1 {
+            font-size: 1.9rem;
+        }
+    
+        .secondSection .box {
+            background-color: #ffffff;
+            width: 80vw;
+            height: 2px;
+            margin: 70px 0;
+            display: flex;
+        }
+        .secondSection .vertical{
+            height: 93px;
+            width: 1px;
+            background-color: #ffffff;
+            margin: 0 130px;
+        }
+        .secondSection .vertical img{
+            width: 50px;
+            margin: -50px -20px 90px -20px;
+        }
+        
+        .secondSection .vertical .school{
+            text-align: center;
+            display: flex;
+            width: 200px;
+            margin: 0px -50px;
+        }
+        .secondSection .vertical .school-name{
+            text-decoration: none;
+            display: flex;
+            width: 200px;
+            color:rgb(255, 163, 64);
+            text-align: center;
+            margin: 0 -70px;
+            
+        }
+        .secondSection .vertical .school-name:hover{
+            color: rgba(234, 255, 0, 0.792);
+            font-size: 1.01rem;
+         
+        }
+        .vertical2 img{
+            border: 5px;
+            border-color: #ffffff;
+        }
+        .pvg {
+            margin: 10px 0;
+        }
+        .school2{
+            text-align: center;
+            display: flex;
+            width: 250px;
+            margin: 0px -68px;
+        }
+        .vertical a{
+            text-decoration: none;    
+        }
+        .seeoff{
+            padding: 50px 0 50px 0;
+            height: 300;
+            background-color:rgb(12, 110, 111) ;
+             }
+        .seeoff a img {
+            margin: 50px 75px 0px ;
+           
+        }
+        .hey img{
+           
+            height: 35px;
+        }
+        .contact{
+            font-size: 1rem;
+            margin: 50px 0;
+        }
+        .thirdSection{
+        max-width: 80vw;
+            margin: 50px 140px;
+            height: 80vh;
+        }
+        .forthSection{
+        max-width: 80vw;
+            margin: 50px 140px;
+            height: 80vh;
+        }
+        .thirdSection pre .about{
+            font-size: 1.3rem ;
+            color: rgb(200, 200, 251);;
+            margin: 0 0 0 -100px;
+        }
+        .thirdSection ul li{
+            font-size: 1.5rem;
+            font-weight: 500;
+        }
+        .forthSection ul li{
+            font-weight: 500;
+            margin: 70px 0;
+        }
+        .forthSection ul a{
+           text-decoration: none;
+           color: rgb(200, 200, 251);
+           font-size: 1.6rem;
+        }
+        .forthSection ul a:hover{
+            color: rgb(255, 163, 64);
+            font-size: 1.61rem;
+        }
+        .forthSection h1{
+            font-size: 1.9rem;
+        }
+        .thirdSection .lavender-text{
+            color:rgb(245, 234, 255) ;
+        } 
+        .thirdSection .darklaven{
+            color:rgb(200, 200, 251);
+        }
+        main h1{
+            color: rgb(245, 234, 255);
+        }
+        .firstSection .rightSection img{
+            height: 375;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">GAURAV DESHMUKH</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#section1">Home</a></li>
+                    <li><a href="#section3">About</a></li>
+                    <li><a href="#section2">Education</a></li>
+                    <li><a href="#section4">Projects</a></li>
+                    <li><a href="#section5">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header id="section1">
+    
+    <main>
+        <section class="firstSection" >
+            <div class="leftSection">
+                Hi, I am <span class="text-purple">Gaurav</span><br>
+                <div>and I am a Zealous</div>
+                <span id="element"></span>
+            </div> 
+            <div class="rightSection">
+                <img src="profilepic.png"> 
+            </div>
+        </section>
+        <hr id="section3">
+        <section class="thirdSection" >
+            <span class="text-gray">Who am I?</span>
+            <h1>About</h1>
+            <br>
+            <pre> <div class="about">
+                I am Gaurav Deshmukh and I am a Student at Pune Vidyarthi Griha College of Engineering, 
+                Studing Bachelors of Engineering in Computer Engineering branch. I have been a Constant
+                learner in my journey and ought to maintain the same. I am a Quick learner and a Street 
+                smart person. I am a excellent communicator and a good public speaker with profound 
+                experience which I have gained by encountering SSB 2 times. I also have a good hand over
+                web devlopment and programming. I also have a significant knowledge of 3D Modelling and 
+                Rendering.
+            </div>
+        </pre>
+           <div class="lavender-text">  <h2>Dexterity</h2>  
+              <div class="darklaven">  
+                <ul>
+                    <li>HTML/HTML5</li>
+                    <li>CSS/CSS3</li>
+                    <li>C/C++ programming</li>
+                    <li>3D modelling</li>
+                    <li>3D rendering</li>
+                    <li>Web development</li>
+                </ul> </div>
+            </div>
+            </section>
+            <br>
+            <hr id="section2">
+
+                <section class="secondSection" >
+            <span class="text-gray">What I have done so far?</span>
+            <h1>Education</h1>
+            <div class="box">
+            <div class="vertical">
+                <img src="School-PNG-Image-HD.png"><div class="school">
+                    School[SSC(10th)]:
+                               </div>     <a href="school.html" ><div class="school-name">Dr Gujar Subhash High School</div>
+             </a>    
+            </div>
+            <div class="vertical">
+                <img class="vertical2" src="School-PNG-Photo.png"><div class="school">
+                    Jr college [HSC(12th)]:
+                               </div>    <a href="jrclg.html" ><div class="school-name">Nutan Vidya Mandir Bhagur</div>
+             </a>    
+            
+         </div>
+            <div class="vertical">
+                <div class="pvg">
+                <img src="Degree-University-Education-PNG-Picture.png" ><div class="school2">
+                Bachelors of Engineering:
+                            </div>    
+                             <a href="college.html" ><div class="school-name">Pune Vidyarthi Griha's College Of Engineering</div>
+                </div>
+                            </a>    
+            
+        </div>
+            <div class="vertical">
+                <img src="Target-Aim-Transparent.png">
+              <a href="vision.html" ><div class="school-name">Many more to come........</div>
+         </a>    </div> 
+        </div>
+            </div>
+        </section>
+        <hr id="section4">
+        <section class="forthSection" >
+            <span class="text-gray">My Creations</span>
+            <h1>Projects</h1>
+            <ul>
+                <a href="/"><li>Digital Portfolio</li></a>
+                <a href="/"><li>3D Modelling (Blender)</li></a>
+                <a href="/"><li>Many more to come......</li></a>
+            </ul>
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Programmer', 'Web Designer', '3D Modeler', 'Web Devloper'],
+            typeSpeed: 50,
+        });
+    </script>
+    <footer id="section5">
+        <div class="seeoff"><a href="https://www.linkedin.com/in/gaurav-deshmukh-6a3804323/" target="_main">
+            <img src="icons8-linkedin-logo-48.png" alt="Linkedin">
+            </a>
+            <a href="https://leetcode.com/u/Gauravd_23/" target="_main" class="hey">
+                <img src="Screenshot 2024-11-02 114225.png" alt="leetcode">
+            </a>
+       <a href="https://www.instagram.com/deshmukh_gaurav52?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_main">
+        <img src="icons8-instagram-logo-48.png" alt="Instagram">
+       </a>
+       
+       <a href="https://github.com/Gaurav23-bit" target="_main">
+        <img src="icons8-github-64.png" alt="Github" >
+       </a>
+
+       <a href="www.gauravgdeshmukh5225@gmail.com" target="_main">
+        <img src="icons8-gmail-logo-48.png" alt="Gmail">
+       </a>
+       <a href="https://x.com/GauravD_23?t=igPJGBJancK84xd41YjdOw&s=08" target="_main">
+        <img src="icons8-x-logo-50.png" alt="x">
+       </a>
+       <a href=" https://www.quora.com" target="_main">
+        <img src="icons8-quora-48.png" alt="Quora">
+       </a>
+       <div class="contact"><pre>
+        Email:gauravgdeshmukh5225@gmail.com
+        Phone:+917249276038
+       </pre></div>
+    </div>
+    </footer>
+</body>
+
+</html>
